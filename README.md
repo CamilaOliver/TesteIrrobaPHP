@@ -66,5 +66,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Orientações
 
-- Renomar .env.example para .env
+- Renomear .env.example para .env
 - Rodar comando "make up" para subir o Docker pela primeira vez.
