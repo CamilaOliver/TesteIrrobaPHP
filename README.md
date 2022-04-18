@@ -67,4 +67,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Orientações
 
 - Renomear .env.example para .env
-- Rodar comando "make up" para subir o Docker pela primeira vez.
+- Rodar comando "make up" para subir o Docker pela primeira vez
+- Após subir o docker rodar as migrations (cd .docker && docker-compose exec php-fpm php artisan migrate)
