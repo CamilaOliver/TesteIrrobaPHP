@@ -11,6 +11,6 @@ Route::group(['prefix' => 'v1'], function () {
     Route::post('token', 'API\UserController@getToken');
 
     Route::group(['middleware' => ['auth:api']], function () {
-        Route::get('doctors', 'API\ScheduleController@index');
+        Route::get('schedule', 'API\ScheduleController@index');
     });
 });
